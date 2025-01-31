@@ -22,8 +22,9 @@ export WORKSHOPPATH="`realpath $PWD`/Workshop-Genomes-pangenomes"
 
 ## Installation of software
 
-Follow the instructions in `software/prerequisite-software-installation.md`
+Follow the instructions in `software/prerequisite-software-installation.md` [Online link here](https://github.com/CreeveyLab/Workshop-Genomes-pangenomes/blob/main/software/prerequisite-software-installation.md)
 
 ## Begin Analysis
 
-Follow the instructions in 
+Follow the instructions in `data/analysis-instructions.md` [Online link here](https://github.com/CreeveyLab/Workshop-Genomes-pangenomes/blob/main/data/analysis-instructions.md)
+

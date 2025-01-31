@@ -20,7 +20,7 @@ You should see `genome_R1.fastq` and  `genome_R2.fastq`
 
 DNA sequencing files usually come in pairs, the read with `R1` in its name is the forward read and `R2` the reverse read of a fragment of DNA (the red regions in the image below represent the reads).
 
-![Paired end reads of next generation sequencing data mapped to a reference genome](https://en.wikipedia.org/wiki/DNA_sequencing#/media/File:Mapping_Reads.png)
+![Paired end reads of next generation sequencing data mapped to a reference genome](https://commons.wikimedia.org/wiki/File:Mapping_Reads.png)
 
 ***fastq*** format files are an industry standard for representing DNA sequencing data which for a single read look like this:
 

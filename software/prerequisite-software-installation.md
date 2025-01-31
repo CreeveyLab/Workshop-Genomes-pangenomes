@@ -11,7 +11,7 @@
 Naviagte to the `software` folder in the repository for example (you can copy/paste the commands below)
 
 > [!NOTE] 
-> $WORKSHOPPATH below was defined in the instructions used to clone the workshop repository
+> `$WORKSHOPPATH` below was defined in the instructions used to clone the workshop repository
 
 
 ## fastQC installation
@@ -53,6 +53,21 @@ make simple_test
 
 # Set up a symbolic link in your bin folder to the executable
 ln -s $PWD/megahit ~/bin/megahit
+
+```
+
+## Quast installation
+
+```
+cd $WORKSHOPPATH/software
+
+# clone the Quast repository
+git clone https://github.com/ablab/quast.git
+
+# change directory into the new quast folder
+cd quast
+
+
 
 ```
 
