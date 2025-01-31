@@ -4,7 +4,7 @@
 - fastqc (https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) - [backup plan using Galaxy](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fdevteam%2Ffastqc%2Ffastqc%2F0.74%2Bgalaxy1&version=latest)
 - megahit (https://github.com/voutcn/megahit) - [backup plan using Galaxy](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fmegahit%2Fmegahit%2F1.2.9%2Bgalaxy1&version=latest)
 - prodigal (https://github.com/hyattpd/Prodigal) - [backup plan using Galaxy](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fbakta%2Fbakta%2F1.9.4%2Bgalaxy0&version=latest)
-- roary (https://github.com/sanger-pathogens/Roary) - backup plan using Galaxy](https://github.com/sanger-pathogens/Roary)
+- roary (https://github.com/sanger-pathogens/Roary) - [backup plan using Galaxy](https://github.com/sanger-pathogens/Roary)
 
 
 ## FIRST DO THIS
