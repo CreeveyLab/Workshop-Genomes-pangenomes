@@ -56,20 +56,6 @@ ln -s $PWD/megahit ~/bin/megahit
 
 ```
 
-## Quast installation
-
-```
-cd $WORKSHOPPATH/software
-
-# clone the Quast repository
-git clone https://github.com/ablab/quast.git
-
-# change directory into the new quast folder
-cd quast
-
-
-
-```
 
 ## prodigal installation (instructions from [here](https://github.com/hyattpd/Prodigal/blob/GoogleImport/README.md))
 
