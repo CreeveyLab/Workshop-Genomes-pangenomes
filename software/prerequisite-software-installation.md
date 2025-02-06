@@ -121,7 +121,7 @@ conda install roary
 alternatively, using mamba (if installed/activated)
 
 ```
-mamba install roary
+mamba create -n roary --no-channel-priority -c bioconda roary
 ```
 
 > [!NOTE]
