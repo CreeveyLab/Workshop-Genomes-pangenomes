@@ -8,13 +8,32 @@
 
 
 ## FIRST DO THIS
-Naviagte to the `software` folder in the repository for example (you can copy/paste the commands below)
+
+***check if you have a `bin` folder in your home directory***
+
+```
+# make sure you are in your come directory
+cd
+
+# check contents
+ls
+
+# IF you do not see a folder call bin then do the following:
+mkdir bin
+
+```
+
+
+Then  naviagte to the `software` folder in the repository for example (you can copy/paste the commands below)
 
 > [!NOTE] 
 > `$WORKSHOPPATH` below was defined in the instructions used to clone the workshop repository
 
+---
 
 ## fastQC installation
+
+This tool is used to assess the quality of DNA sequencing reads
 
 Download fastqc executable for linux platforms using the following command:
 ```
@@ -32,8 +51,11 @@ ln -s $PWD/FastQC/fastqc ~/bin/fastqc
 
 ```
 
+---
 
 ## megahit installation
+
+This tool is used to reconstruct genomes from DNA sequencing reads
 
 ```
 cd $WORKSHOPPATH/software
@@ -56,9 +78,11 @@ ln -s $PWD/megahit ~/bin/megahit
 
 ```
 
+---
 
 ## prodigal installation (instructions from [here](https://github.com/hyattpd/Prodigal/blob/GoogleImport/README.md))
 
+This tool is used to annotate genomes (find genes etc.)
 
 ```
 cd $WORKSHOPPATH/software
@@ -68,15 +92,19 @@ git clone https://github.com/hyattpd/Prodigal.git
 
 # compile the code
 cd Prodigal
-make install
+make install  make install INSTALLDIR=./bin/
 
 # Set up a symbolic link in your bin folder to the executable
-ln -s $PWD/prodigal ~/bin/prodigal
+ln -s $PWD/bin/prodigal ~/bin/prodigal
 
 ```
 
+---
 
 ## roary installtion (instructions from [here](https://github.com/sanger-pathogens/Roary?tab=readme-ov-file#installation))
+
+This tool is used to assess multiple genomes from a single species to understand the variability between individuals (the pangenome)
+
 
 This installation is best done by installing a conda environment ([What is a conda environment?](https://docs.anaconda.com/working-with-conda/environments/))
 
