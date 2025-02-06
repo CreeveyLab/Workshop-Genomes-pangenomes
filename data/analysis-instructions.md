@@ -180,6 +180,9 @@ accn|CP123277	Prodigal_v2.6.3	CDS	6528	7958	135.7	-	0	ID=1_7;partial=00;start_ty
 
 A description of the GFF format is available here: https://en.wikipedia.org/wiki/General_feature_format
 
+
+An example of the output for this command can be found in the ***example_results/prodigal*** folder.
+
 ---
 
 ## Step 4: Carry out a Pangenome analysis (roary)
@@ -233,4 +236,9 @@ Cloud genes	(0% <= strains < 15%)	8956
 Total genes	(0% <= strains <= 100%)	14746
 ```
 Investigate the other files to learn more about the specific details.
+
+An example of the output for this command can be found in the ***example_results/roary*** folder.
+
+
+
 

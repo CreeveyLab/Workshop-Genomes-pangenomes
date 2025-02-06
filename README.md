@@ -28,3 +28,9 @@ Follow the instructions in `software/prerequisite-software-installation.md` [Onl
 
 Follow the instructions in `data/analysis-instructions.md` [Online link here](https://github.com/CreeveyLab/Workshop-Genomes-pangenomes/blob/main/data/analysis-instructions.md)
 
+
+
+```
+salloc --time=02:00:00 --ntasks=1 --cpus-per-task=8 --mem=32G --gres=gpu:1 --partition=agpu_full
+```
+
