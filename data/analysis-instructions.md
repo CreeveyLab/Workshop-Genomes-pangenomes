@@ -218,6 +218,19 @@ This will take the infomration from all the GFF files and use 8 processors to do
 The roary website has links to tools that can allow you to generate visualisations of your results: https://sanger-pathogens.github.io/Roary/
 
 
+When finished, look insides the result file `summary_statistics.txt`
 
+```
+cat summary_statistics.txt
+```
+to see the high-level overview of the pangenome, for instnace:
 
+```
+Core genes	(99% <= strains <= 100%)	483
+Soft core genes	(95% <= strains < 99%)	0
+Shell genes	(15% <= strains < 95%)	5307
+Cloud genes	(0% <= strains < 15%)	8956
+Total genes	(0% <= strains <= 100%)	14746
+```
+Investigate the other files to learn more about the specific details.
 
