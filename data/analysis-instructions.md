@@ -144,7 +144,7 @@ E-coli-bacterial_genome.aac.fas E-coli-bacterial_genome.aaf.fas E-coli-bacterial
 You can use a `for` loop to run prodigal on all of the genomes sequentially:
 
 ```
-for i in bacterial_genome.*.fas; do 
+for i in E-coli-bacterial_genome.*.fas; do 
 	prodigal -i $i -f gff -o $i.gff; 
 	done
 
