@@ -10,7 +10,7 @@ You may use the instructions below or follow Chris' intructions on GitHub (link 
 ## Step 1: Install software
 
 ##### Option 1:Docker (needed for James Gillespie's practical)
-###### NOTE --> works best on computers NOT HPC systems (convert to singularity if working on a HPC that does not support Docker --> see singularity instructions)
+###### NOTE --> works best on local machines NOT HPC systems (convert to singularity if working on a HPC that does not support Docker --> see singularity instructions)
 Install Docker(if you don't have already)
 Mac https://docs.docker.com/desktop/setup/install/mac-install/
 ```
